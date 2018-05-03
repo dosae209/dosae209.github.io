@@ -1,62 +1,62 @@
 div {
-	color: #A5A5A5;
-	font-family: Crimson Text, Cormorant Garamond, Nanum Myeongjo;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	margin-left: 100px;
-	margin-right: 100px;
-	border-color: #000000;
-	border-style: double; 
+	color: #00000;
+	font-family: 'Cormorant Garamond', serif;
+	border-style: double;
+	border-color: #E3F3EE;
 
 }
 
+p{
+	text-align: left;
+	font-size-adjust: 
+} 
 
-	
-p {
-	font-size: 16px;
-}
 
-  h1{
+
+
+
+
+h1 {
 	text-align: center;
-	color: #686666;
+	color: #DDFFF5;
+	p.double {border-style: double;}
+	highlight-color: #52C29F;      
+
+
 }
 
-	h3{
-		font-size: 20px;
-	}
-
-a {
-	color: #FAEDF9;
-	text-decoration: none;
+h3{
+	text-align: center;
 }
 
-a: visited {
-	color: #FCFAAF;
-}
 
-a: hover {
-	color: #E0DEFF;
+
+
+h5{
+	text-align: center;
+
 }
 
 img{
-	height: 500px;
+	height: 600px;
 	width: 600px;
-	margin-bottom: 100px;
-	margin-top: 100px;
+
 }
 
-@media(min-width: 980px) (max-width: 500px) {p{color:pink;}}
-
-#pagewrap {
-	width: 90%;
-}
-
-#content{
-	width: 65%;
-}
-
-#sidebar {
-	width: 30%;
+p-tag{
+	text-align: center;
 }
 
 
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
+button{
+	text-align: center;
+}
